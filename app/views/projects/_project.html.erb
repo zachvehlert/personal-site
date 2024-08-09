@@ -1,8 +1,14 @@
 <div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-    <path d="<%= project.icon_path %>"/>
-  </svg>
-  <h3 class="fs-2 text-body-emphasis fw-normal"><%= project.title %></h3>
+  <div class='d-flex justify-content-center'>
+    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" viewBox="0 0 16 16">
+      <path d="<%= project.icon_path %>"/>
+    </svg>
+  </div>
+  <br>
+  <div class="d-flex justify-content-center">
+    <h3 class="fs-2 text-body-emphasis fw-normal"><%= project.title %></h3>
+  </div>
+  <hr>
   <p><%= project.description %></p>
   <% for tech in project.technologies.split(",").map(&:strip) %>
     <small class="d-inline-flex mb-3 px-2 py-1 fw-semibold text-success-emphasis bg-success-subtle border border-success-subtle rounded-2"><%= tech %></small>

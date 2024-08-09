@@ -10,4 +10,4 @@ Rails Version: 7.1.3.2
 - Write up an actual about me (instead of one written by AI)
 - Finish styling the projects page
 - Make the buttons actually work
-- Fix the projects page on live
+- Add authentication

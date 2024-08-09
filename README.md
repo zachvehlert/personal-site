@@ -9,4 +9,5 @@ Rails Version: 7.1.3.2
 - Finish adding list of projects
 - Write up an actual about me (instead of one written by AI)
 - Finish styling the projects page
-- Deployment
+- Make the buttons actually work
+- Fix the projects page on live
